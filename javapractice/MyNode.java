@@ -6,7 +6,7 @@ public class MyNode<K> {
 
 	public MyNode(K Key) {
 		this.key = key;
-		this .next  = null;
+		this.next  = null;
 	}
 
 	public MyNode getNext() {
