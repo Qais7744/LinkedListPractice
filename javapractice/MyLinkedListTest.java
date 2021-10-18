@@ -30,6 +30,7 @@ public class MyLinkedListTest {
 		myLinkedList.append(mySecondNode);
 		myLinkedList.append(myThirdNode);
 		myLinkedList.printMyNodes();
+<<<<<<< HEAD
 		boolean result = myLinkedList.head.equals(myFirstNode) && myLinkedList.head.getNext().equals(mySecondNode)
 				&& myLinkedList.tail.equals(myThirdNode);
 		Assert.assertTrue(result);
@@ -47,6 +48,11 @@ public class MyLinkedListTest {
 		myLinkedList.printMyNodes();
 		boolean result = myLinkedList.head.equals(myFirstNode) && myLinkedList.head.getNext().equals(mySecondNode)
 				&& myLinkedList.tail.equals(myThirdNode);
+=======
+		boolean result = myLinkedList.head.equals(myFirstNode) && 
+				         myLinkedList.head.getNext().equals(mySecondNode) &&
+						 myLinkedList.tail.equals(myThirdNode);
+>>>>>>> UC3_AppendLinkedListValue
 		Assert.assertTrue(result);
 	}
 }
